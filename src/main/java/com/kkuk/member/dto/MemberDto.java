@@ -16,7 +16,7 @@ public class MemberDto {
 	private String confirmPassword; //비밀번호 확인
 	private String name;
 	private String email; //회원이메일
-	private int age; // 나이 
+	private Integer age; // 나이 -> null 값 확인을 위해 inreger로 변경
 
 	
 }
